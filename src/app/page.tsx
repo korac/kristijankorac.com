@@ -28,6 +28,9 @@ export default function Home() {
           <p>
             I enjoy crafting digital solutions, user-friendly interfaces and human experiences in a digital world.
           </p>
+          <p>
+            So far, I have been working with TS/JS, React and NextJS, NestJS, Ruby on Rails, AWS, etc.
+          </p>
           <h3 className="text-xl font-medium">Mini manifesto</h3>
           <blockquote
             className="relative before:absolute before:w-[4px] before:top-0 before:bottom-0 before:-left-[16px] before:bg-foreground before:rounded-md">
@@ -35,10 +38,11 @@ export default function Home() {
           </blockquote>
           <section className="flex flex-col gap-3">
             <p>
-              Code is essentially a bridge between users and computers. If a bridge is poorly designed on either side, it inevitably collapses.
+              Code is essentially a bridge between users and computers. If a bridge is poorly designed on either side,
+              it inevitably collapses.
             </p>
             <p>
-              As a software developer, I wish to contribute towards a future that is interconnected with stable, reliable and flexible bridges, where software is used to solve real-world challenges (and to challenge real-world solutions).
+              As a software developer, I strive to build a future interconnected by stable, reliable, and flexible bridges — where software not only solves real-world challenges, but also challenges real-world solutions.
             </p>
           </section>
         </main>

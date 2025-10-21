@@ -43,7 +43,7 @@ export default function Home() {
                 {' '} - digitalizing cargo-transport industry operations
               </li>
               <li>
-                (I'll see about notable mentions)
+                (I&#39;ll see about notable mentions)
               </li>
             </ul>
           </section>

@@ -31,10 +31,26 @@ export default function Home() {
           <p>
             So far, I have been working with TS/JS, React and NextJS, NestJS, Ruby on Rails, AWS, etc.
           </p>
-          <h3 className="text-xl font-medium">Mini manifesto</h3>
+          <section className="flex flex-col gap-3">
+            <h3 className="text-xl font-bold">Building bridges with</h3>
+            <ul className="list-disc flex flex-col gap-2">
+              <li>
+                <a href="https://pontahr.com" className="underline underline-offset-4 hover:text-amber-600 dark:hover:text-amber-400" target="_blank">PontaHR</a>
+                {' '} - next-gen ATS
+              </li>
+              <li>
+                <a href="https://cargo-navis.com" className="underline underline-offset-4 hover:text-amber-600 dark:hover:text-amber-400" target="_blank">CargoNavis</a>
+                {' '} - digitalizing cargo-transport industry operations
+              </li>
+              <li>
+                (I'll see about notable mentions)
+              </li>
+            </ul>
+          </section>
+          <h3 className="text-xl font-bold">Mini manifesto</h3>
           <blockquote
             className="relative before:absolute before:w-[4px] before:top-0 before:bottom-0 before:-left-[16px] before:bg-foreground before:rounded-md">
-            <span className="italic">Software is for computers. Code is for developers. Interface is for users.</span>
+          <span className="italic">Software is for computers. Code is for developers. Interface is for users.</span>
           </blockquote>
           <section className="flex flex-col gap-3">
             <p>
@@ -42,19 +58,20 @@ export default function Home() {
               it inevitably collapses.
             </p>
             <p>
-              As a software developer, I strive to build a future interconnected by stable, reliable, and flexible bridges — where software not only solves real-world challenges, but also challenges real-world solutions.
+              As a software developer, I strive to build a future interconnected by stable, reliable, and flexible
+              bridges — where software not only solves real-world challenges, but also challenges real-world solutions.
             </p>
           </section>
         </main>
         <footer className="row-start-3 my-10 flex flex-wrap gap-[24px]">
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="flex items-center gap-2 underline underline-offset-4 hover:text-amber-600 dark:hover:text-amber-400"
             href="https://www.linkedin.com/in/kristijan-korac/"
             target="_blank"
             rel="noopener noreferrer"
           >Linkedin</a>
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="flex items-center gap-2 underline underline-offset-4 hover:text-amber-600 dark:hover:text-amber-400"
             href="https://x.com/korac_kristijan"
             target="_blank"
             rel="noopener noreferrer"
